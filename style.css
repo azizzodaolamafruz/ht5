@@ -573,46 +573,73 @@ body {
   object-position: bottom right;
 }
 
-.ai {
-  background: #122133;
+.bw {
+  background-color: #2BA059;
   color: #ffffff;
-  padding: 30px 0;
-  text-align: center;
+  padding: 60px 0;
 }
 
-.aj p {
-  font-size: 13px;
+.bx {
+  display: grid;
+  grid-template-columns: 1.5fr repeat(4, 1fr);
+  gap: 32px;
+}
+
+.by {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bz {
+  height: 48px;
+  width: auto;
+}
+
+.ca {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cb {
+  font-size: 12px;
   opacity: 0.8;
 }
 
-@media (max-width: 992px) {
-  .t {
-    grid-template-columns: 1fr;
-  }
-  .ay {
-    flex-direction: column;
-    align-items: center;
-  }
-  .bd {
-    width: 320px;
-  }
-  .bb {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-  .bj {
-    flex-direction: column;
-    padding: 32px;
-  }
-  .bk {
-    width: 100%;
-  }
-  .bo {
-    flex-direction: column;
-  }
-  .bu {
-    position: relative;
-    width: 100%;
-    margin-top: 20px;
-  }
+.cc {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cd {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ce {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cf {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cf li a {
+  color: #ffffff;
+  opacity: 0.9;
+  font-size: 13px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.cf li a:hover {
+  opacity: 1;
+  text-decoration: underline;
 }
